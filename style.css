@@ -1,0 +1,23 @@
+
+body {
+  background: #f8f9fa;
+}
+
+h2, h5 {
+  color: #d62828;
+}
+
+.pilihan-warna button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Prioritas CSS: override btn-primary Bootstrap */
+.btn-primary {
+  background-color: red !important;
+  border: none;
+}
